@@ -1,3 +1,10 @@
+# Movie Frenzy
+## Movie Frenzy is a site similar to Rotten Tomatoes for reviewing and commenting movies and it is a class project for web development
+
+
+
+
+# Base Source Code
 Parallelism by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
