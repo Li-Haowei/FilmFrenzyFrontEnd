@@ -1,7 +1,6 @@
 # Movie Frenzy
 ## Movie Frenzy is a site similar to Rotten Tomatoes for reviewing and commenting movies and it is a class project for web development
 
-# Testing to see change
 
 
 
