@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+</head>
+<body>
+    <h1 id="movie-title"></h1>
+    <h2 id="movie-ratings"></h2>
+    <p id="movie-description"></p>
+    <script>
+        // get url params
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieTitle = urlParams.get('title');
+        const movieRatings = urlParams.get('rating');
+        const movieDescription = urlParams.get('description');
+        // set to be used
+        document.getElementById("movie-title").innerHTML = movieTitle;
+        document.getElementById("movie-ratings").innerHTML = movieRatings;
+        document.getElementById("movie-description").innerHTML = movieDescription;
+
+    </script>
+</body>
+</html>
